@@ -1,8 +1,9 @@
-# Assignments
+# Qiyas AI & Data Analysis Training (2026) 
 
-This folder contains all my weekly homework and hands-on exercises for the Qiyas AI & Data Analysis program. 
+Welcome to my central repository! This is the main hub tracking my progress, code, and portfolio during my 6-month AI and Data Analysis training program at Qiyas.
 
-Each sub-folder inside here will represent a different week or topic of the training, containing the code and datasets used for that specific assignment.
+## How This Is Organized
+This repository is broken down into two main areas:
 
-**Topics covered so far:**
-* 
+*   **/assignments:** Weekly tasks, code practice, and homework exercises.
+*   **/projects:** Full machine learning models and data pipelines.
