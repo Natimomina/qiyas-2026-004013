@@ -1,0 +1,28 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Python & Jupyter
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Data and Models (Ignore files, but keep READMEs to preserve folder structure)
+data/raw/*
+!data/raw/README.md
+data/processed/*
+!data/processed/README.md
+models/*
+!models/README.md
+
+# Outputs (Ignore generated media and results)
+outputs/figures/*
+outputs/results/*
+
+# Logs and Errors
+*.log
+mel_generation_errors.csv
