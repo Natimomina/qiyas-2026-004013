@@ -1,0 +1,11 @@
+torch
+transformers
+jiwer
+librosa
+soundfile
+gradio
+pandas
+numpy
+matplotlib
+tqdm
+scikit-learn

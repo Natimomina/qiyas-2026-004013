@@ -1,0 +1,16 @@
+# Dataset (see README for download instructions)
+/amharic-speech-corpus/
+
+# Manually-downloaded base model (see README for download instructions)
+/wav2vec2-large-xlsr-53-local/
+
+# Training checkpoints & saved model weights (regenerate by running the notebook)
+/artifacts/*
+!/artifacts/vocab.json
+!/artifacts/best_model.json
+
+# Jupyter / Python noise
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
