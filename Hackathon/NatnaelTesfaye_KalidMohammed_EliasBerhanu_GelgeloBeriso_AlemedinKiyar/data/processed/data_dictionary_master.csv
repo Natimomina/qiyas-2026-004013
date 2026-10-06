@@ -1,0 +1,27 @@
+column,dtype,missing_count,unique_count,description
+plot_id,object,0,15000,Identifier
+region,object,0,5,Feature / derived feature
+crop_type,object,0,5,Feature / derived feature
+survey_year,int64,0,4,Feature / derived feature
+planting_month,object,0,5,Feature / derived feature
+altitude_m,float64,0,14397,Feature / derived feature
+rainfall_mm_season,float64,447,14546,Feature / derived feature
+farm_size_ha,float64,0,14850,Feature / derived feature
+fertilizer_kg_per_ha,float64,742,14116,Feature / derived feature
+improved_seed_used,int64,0,2,Feature / derived feature
+pest_disease_flag,float64,297,2,Feature / derived feature
+soil_quality_index,float64,607,14391,Feature / derived feature
+labor_days_per_ha,float64,483,14458,Feature / derived feature
+distance_to_market_km,float64,0,14391,Feature / derived feature
+yield_tons_per_ha,float64,0,14994,Target yield
+season_mean_temp,float64,0,91,Feature / derived feature
+season_rainfall_mm,float64,0,100,Feature / derived feature
+season_extreme_heat_days,float64,0,23,Feature / derived feature
+weather_months_observed,float64,0,3,Feature / derived feature
+season_temp_std,float64,0,98,Feature / derived feature
+season_rainfall_std,float64,0,100,Feature / derived feature
+season_temp_anomaly,float64,0,97,Feature / derived feature
+planting_month_num,int64,0,5,Feature / derived feature
+fertilizer_seed_interaction,float64,742,5351,Feature / derived feature
+rainfall_reporting_ratio,float64,447,14553,Feature / derived feature
+temp_rainfall_interaction,float64,0,100,Feature / derived feature

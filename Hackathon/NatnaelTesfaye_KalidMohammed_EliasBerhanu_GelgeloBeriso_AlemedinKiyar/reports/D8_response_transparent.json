@@ -1,0 +1,6 @@
+{
+  "fixed_validation_RMSE": 0.4711737751306572,
+  "interaction_validation_RMSE": 0.4624988945563494,
+  "change_RMSE": -0.00867488057430782,
+  "decision": "keep interaction"
+}

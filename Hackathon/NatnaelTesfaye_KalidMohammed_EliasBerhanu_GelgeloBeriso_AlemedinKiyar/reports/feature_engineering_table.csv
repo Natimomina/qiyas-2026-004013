@@ -1,0 +1,10 @@
+feature,formula,source_columns,expected_value
+season_mean_temp,mean(avg_temp_c over planting month + next 3 months),regional_weather avg_temp_c,captures growing-season thermal conditions
+season_rainfall_mm,sum(monthly_rainfall_mm over 4-month window),regional_weather monthly_rainfall_mm,captures accumulated station rainfall
+season_extreme_heat_days,sum(extreme_heat_days over 4-month window),regional_weather extreme_heat_days,captures heat stress exposure
+season_temp_anomaly,season_mean_temp - region seasonal climatology,weather avg_temp_c + region/month,captures unusual warmth/cold for the region
+weather_months_observed,count of available months in the 4-month window,weather keys,measures seasonal data completeness
+fertilizer_seed_interaction,fertilizer_kg_per_ha × improved_seed_used,plot fertilizer + seed,captures complementary input response
+rainfall_reporting_ratio,rainfall_mm_season / season_rainfall_mm,plot rainfall + weather rainfall,captures agreement between farmer report and station aggregation
+temp_rainfall_interaction,season_mean_temp × log(1 + season_rainfall_mm),weather temperature + rainfall,captures joint climate effect
+planting_month_num,calendar month number 1–12,planting_month,lets models learn timing effects

@@ -1,0 +1,10 @@
+file,column(s),issue_type,rows_affected,fix_applied,why
+crop_yield_train.csv,region/crop_type,inconsistent labels,0,strip/lower/map to canonical labels,ensures identical join/category keys
+crop_yield_train.csv,plot_id + all fields,duplicate plot record,90,remove duplicate-content plot records,preserves unique training observations
+crop_yield_train.csv,"pest_disease_flag, labor_days_per_ha",-999 sentinel,788,replace -999 with missing; impute during model preprocessing,-999 is not a valid domain value
+crop_yield_train.csv,farm_size_ha,extreme/unit anomaly,151,cap above train 99th percentile (4.262 ha),limits implausible high-end values
+crop_yield_train.csv,fertilizer_kg_per_ha,extreme/unit anomaly,143,cap above train 99th percentile (136.050 kg/ha),limits obvious high-end unit anomalies
+regional_weather.csv,region,inconsistent labels/abbreviations,15,map full names and abbreviations to canonical labels,makes region join keys consistent
+regional_weather.csv,region/year/month,duplicate weather keys,6,average duplicate readings by key,restores one row per region-year-month
+regional_weather.csv,avg_temp_c/monthly_rainfall_mm,missing weather readings,3,region-month median then global median,keeps seasonal features computable
+market_prices.csv,price_birr_per_quintal,wrong unit,4,multiply values below 100 by 100,restores intended birr/quintal scale

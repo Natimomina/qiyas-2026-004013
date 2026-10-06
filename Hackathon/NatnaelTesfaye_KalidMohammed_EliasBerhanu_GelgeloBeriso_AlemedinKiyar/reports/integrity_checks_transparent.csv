@@ -1,0 +1,12 @@
+status,check
+PASS,plot_id unique in master train
+PASS,train row count preserved after duplicate removal
+PASS,test row count preserved
+PASS,region labels canonical
+PASS,crop labels canonical
+PASS,yield non-negative
+PASS,price positive
+PASS,no price in model feature list
+PASS,submission IDs unique
+PASS,weather seasonal keys unique
+PASS,no missing target

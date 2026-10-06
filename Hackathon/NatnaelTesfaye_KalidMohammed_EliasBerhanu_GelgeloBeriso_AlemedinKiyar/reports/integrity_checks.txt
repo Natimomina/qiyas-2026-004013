@@ -1,0 +1,12 @@
+PASS | plot_id unique in master train
+PASS | train row count preserved after joins (15,000 rows after removing 90 duplicate-content records)
+PASS | test row count preserved
+PASS | region labels canonical
+PASS | crop labels canonical
+PASS | model feature columns identical train/test
+PASS | yield non-negative
+PASS | price positive
+PASS | no model price feature
+PASS | submission template has expected IDs
+PASS | weather seasonal keys are unique
+PASS | no missing target

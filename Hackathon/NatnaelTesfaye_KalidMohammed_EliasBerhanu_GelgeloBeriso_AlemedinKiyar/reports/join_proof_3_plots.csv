@@ -1,0 +1,12 @@
+plot_id,region,survey_year,planting_month,window_months,weather_month,avg_temp_c,monthly_rainfall_mm,extreme_heat_days
+PLOT-000339,Oromia,2024,Aug,"Aug,Sep,Oct,Nov",Aug,19.1,185.1,0.0
+PLOT-000339,Oromia,2024,Aug,"Aug,Sep,Oct,Nov",Nov,19.4,20.8,0.0
+PLOT-000339,Oromia,2024,Aug,"Aug,Sep,Oct,Nov",Sep,15.1,147.1,0.0
+PLOT-007457,Amhara,2023,Jun,"Jun,Jul,Aug,Sep",Aug,14.5,192.8,0.0
+PLOT-007457,Amhara,2023,Jun,"Jun,Jul,Aug,Sep",Jul,14.9,244.6,0.0
+PLOT-007457,Amhara,2023,Jun,"Jun,Jul,Aug,Sep",Jun,17.0,118.5,0.0
+PLOT-007457,Amhara,2023,Jun,"Jun,Jul,Aug,Sep",Sep,14.4,153.5,0.0
+PLOT-006092,Oromia,2024,Feb,"Feb,Mar,Apr,May",Apr,20.2,55.8,0.0
+PLOT-006092,Oromia,2024,Feb,"Feb,Mar,Apr,May",Feb,18.2,78.5,0.0
+PLOT-006092,Oromia,2024,Feb,"Feb,Mar,Apr,May",Mar,20.1,92.5,0.0
+PLOT-006092,Oromia,2024,Feb,"Feb,Mar,Apr,May",May,18.3,68.1,0.0

@@ -1,0 +1,2 @@
+trials,best_params,untuned_RMSE,tuned_RMSE
+3,"{""max_iter"": 160, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15, ""min_samples_leaf"": 20, ""l2_regularization"": 1.0}",0.473845111222351,0.4729598906026292

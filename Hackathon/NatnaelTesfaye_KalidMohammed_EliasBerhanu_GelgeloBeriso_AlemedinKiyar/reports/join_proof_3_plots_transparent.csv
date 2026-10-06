@@ -1,0 +1,12 @@
+region,year,month,avg_temp_c,monthly_rainfall_mm,extreme_heat_days,plot_id
+Oromia,2024,Aug,19.1,185.1,0.0,PLOT-000339
+Oromia,2024,Nov,19.4,20.8,0.0,PLOT-000339
+Oromia,2024,Sep,15.1,147.1,0.0,PLOT-000339
+Amhara,2023,Aug,14.5,192.8,0.0,PLOT-007457
+Amhara,2023,Jul,14.9,244.6,0.0,PLOT-007457
+Amhara,2023,Jun,17.0,118.5,0.0,PLOT-007457
+Amhara,2023,Sep,14.4,153.5,0.0,PLOT-007457
+Oromia,2024,Apr,20.2,55.8,0.0,PLOT-006092
+Oromia,2024,Feb,18.2,78.5,0.0,PLOT-006092
+Oromia,2024,Mar,20.1,92.5,0.0,PLOT-006092
+Oromia,2024,May,18.3,68.1,0.0,PLOT-006092

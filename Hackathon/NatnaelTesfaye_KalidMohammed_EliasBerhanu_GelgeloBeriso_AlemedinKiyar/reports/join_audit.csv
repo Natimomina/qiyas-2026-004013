@@ -1,0 +1,3 @@
+join,join_type,rows_before,rows_after,match_rate_pct,unmatched_plots,fewer_than_4_months,handling
+plot -> weather seasonal,many-to-one,15000,15000,100.0,0,20.0,aggregate available months; missing monthly readings were cleaned/imputed; retain observed-month count
+plot -> price,many-to-one,15000,15000,100.0,0,,cleaned/imputed price table; merge validate=many_to_one
