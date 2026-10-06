@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Movie Intelligence</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+<div class="ambient ambient-one"></div>
+<div class="ambient ambient-two"></div>
+
+<header class="topbar">
+  <a class="brand" href="/">
+    <span class="brand-mark">M</span>
+    <span>Movie<span class="muted">IQ</span></span>
+  </a>
+  <nav>
+    <a href="#discover">Discover</a>
+    <a href="#predict">Prediction Studio</a>
+    <a href="#about">About</a>
+  </nav>
+  <a class="pill-link" href="#discover">Explore →</a>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-copy">
+    <div class="eyebrow"><span class="pulse"></span> Movie Intelligence Platform</div>
+    <h1>Turn movie data into <span>better decisions.</span></h1>
+    <p class="hero-text">
+      Explore 4,000 movies, discover similar titles, and experiment with
+      machine-learning predictions in one cinematic workspace.
+    </p>
+    <div class="hero-actions">
+      <a class="button primary" href="#discover">Discover movies</a>
+      <a class="button ghost" href="#predict">Open prediction studio</a>
+    </div>
+    <div class="hero-note">Content-based recommendations • ML predictions • Interactive exploration</div>
+  </div>
+
+  <div class="hero-orbit">
+    <div class="orbit-card">
+      <div class="orbit-top"><span>MODEL STATUS</span><span class="live">● LIVE</span></div>
+      <div class="orbit-title">Movie Intelligence Engine</div>
+      <div class="orbit-grid">
+        <div><strong>{{ stats.movies }}</strong><span>Movies</span></div>
+        <div><strong>{{ stats.genres }}</strong><span>Genres</span></div>
+        <div><strong>{{ stats.directors }}</strong><span>Directors</span></div>
+        <div><strong>{{ stats.countries }}</strong><span>Countries</span></div>
+      </div>
+      <div class="signal"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+    </div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="stat-card"><span>Movies analyzed</span><strong>{{ stats.movies }}</strong><small>cleaned dataset</small></div>
+  <div class="stat-card"><span>Average score</span><strong>{{ stats.avg_score }}</strong><small>out of 10</small></div>
+  <div class="stat-card"><span>Genres</span><strong>{{ stats.genres }}</strong><small>represented</small></div>
+  <div class="stat-card"><span>Countries</span><strong>{{ stats.countries }}</strong><small>represented</small></div>
+</section>
+
+<section id="discover" class="section">
+  <div class="section-heading">
+    <div>
+      <div class="eyebrow">01 / DISCOVER</div>
+      <h2>Find your next movie.</h2>
+    </div>
+    <p>Search a title and let the content engine surface movies with similar attributes.</p>
+  </div>
+
+  <div class="search-panel">
+    <div class="search-row">
+      <div class="search-box">
+        <span>⌕</span>
+        <input id="movieSearch" placeholder="Search a movie title…" autocomplete="off">
+      </div>
+      <button id="recommendBtn" class="button primary">Recommend</button>
+    </div>
+    <div id="searchResults" class="search-results"></div>
+  </div>
+
+  <div id="selectedMovie" class="selected hidden"></div>
+  <div id="recommendations" class="movie-grid"></div>
+</section>
+
+<section id="predict" class="section prediction-section">
+  <div class="section-heading">
+    <div>
+      <div class="eyebrow">02 / PREDICTION STUDIO</div>
+      <h2>Experiment with the models.</h2>
+    </div>
+    <p>Use the trained models from the notebook pipeline through a clean interface.</p>
+  </div>
+
+  <div class="studio-grid">
+    <article class="tool-card">
+      <div class="tool-icon">★</div>
+      <h3>Rating Predictor</h3>
+      <p>Estimate a movie's audience score from pre-release style attributes.</p>
+      <button class="button dark" onclick="openPredictor('rating')">Launch model →</button>
+    </article>
+    <article class="tool-card">
+      <div class="tool-icon">$</div>
+      <h3>Revenue Predictor</h3>
+      <p>Estimate gross revenue using the trained log-target revenue model.</p>
+      <button class="button dark" onclick="openPredictor('revenue')">Launch model →</button>
+    </article>
+    <article class="tool-card">
+      <div class="tool-icon">◎</div>
+      <h3>Success Classifier</h3>
+      <p>Classify whether the movie is predicted to reach the high-score threshold.</p>
+      <button class="button dark" onclick="openPredictor('success')">Launch model →</button>
+    </article>
+  </div>
+</section>
+
+<section id="about" class="footer-panel">
+  <div>
+    <div class="eyebrow">MOVIEIQ</div>
+    <h2>A portfolio project that connects data science to a real product.</h2>
+  </div>
+  <p>Built with Flask, scikit-learn, TF-IDF, cosine similarity, HTML, CSS and JavaScript.</p>
+</section>
+</main>
+
+<div id="modal" class="modal hidden">
+  <div class="modal-backdrop" onclick="closeModal()"></div>
+  <div class="modal-card">
+    <button class="modal-close" onclick="closeModal()">×</button>
+    <div class="eyebrow" id="modalEyebrow">MODEL</div>
+    <h2 id="modalTitle">Prediction Studio</h2>
+    <p id="modalDescription"></p>
+    <form id="predictForm" class="form-grid"></form>
+    <button id="runPrediction" class="button primary full">Run prediction</button>
+    <div id="predictionResult" class="prediction-result hidden"></div>
+  </div>
+</div>
+
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
