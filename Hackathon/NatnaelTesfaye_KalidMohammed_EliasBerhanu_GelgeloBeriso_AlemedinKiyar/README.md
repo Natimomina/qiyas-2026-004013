@@ -27,7 +27,7 @@ pip install -r requirements.txt
 Demo:
 ```bash
 pip install -r app/requirements.txt
-python app/app.py for 
+python app/app.py 
 ```
 
 ## Notebook order
