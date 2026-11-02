@@ -1,0 +1,16 @@
+{
+  "train_rows_after_dedup": 84614,
+  "test_rows": 4032,
+  "weather_unique_hours": 6814,
+  "weather_match_rate_train": 0.8408064859243152,
+  "weather_missing_zone_hours": 13470,
+  "train_duplicate_zone_hours_after_cleaning": 0,
+  "test_duplicate_zone_hours": 0,
+  "events_total": 165,
+  "events_cancelled": 6,
+  "events_with_valid_start": 165,
+  "events_matched_at_least_one_zone_hour": 151,
+  "events_unmatched_or_excluded": 14,
+  "timezone_policy": "Offset/Z weather timestamps converted to Africa/Addis_Ababa (UTC+03:00); naive trip and event times interpreted as Addis local time.",
+  "event_window": "2 hours before event start through 2 hours after event end; cancelled events excluded."
+}

@@ -1,0 +1,166 @@
+event_id,event_name,event_type,zone_norm,start,end,status_clean,is_cancelled
+EVT-0014,Premier league match,football_match,KAZANCHIS,2025-02-06 18:00:00,2025-02-06 20:00:00,confirmed,False
+EVT-0081,Road closure (construction),road_closure,AYAT,2025-06-07 08:00:00,2025-06-07 18:00:00,confirmed,False
+EVT-0106,Premier league match,football_match,KAZANCHIS,2025-08-13 19:00:00,2025-08-13 21:00:00,confirmed,False
+EVT-0069,Road closure (construction),road_closure,CMC,2025-05-14 13:00:00,2025-05-15 03:00:00,confirmed,False
+EVT-0045,Good Friday,public_holiday,CITYWIDE,2025-04-18 00:00:00,2025-04-18 23:00:00,confirmed,False
+EVT-0089,Community fun run,sports_run,KAZANCHIS,2025-06-22 06:00:00,2025-06-22 11:00:00,confirmed,False
+EVT-0018,Conference: Agriculture summit,conference,PIASSA,2025-02-19 08:00:00,2025-02-19 17:00:00,confirmed,False
+EVT-0070,Conference: Fintech forum,conference,KAZANCHIS,2025-05-16 08:00:00,2025-05-16 17:00:00,confirmed,False
+EVT-0040,Eid al-Fitr,public_holiday,CITY-WIDE,2025-03-31 00:00:00,2025-03-31 23:00:00,confirmed,False
+EVT-0149,Premier league match,football_match,KAZANCHIS,2025-10-25 15:00:00,2025-10-25 17:00:00,confirmed,False
+EVT-0039,Conference: Agriculture summit,conference,BOLE,2025-03-28 08:00:00,2025-03-28 17:00:00,confirmed,False
+EVT-0080,Conference: Education forum,conference,KAZANCHIS,2025-06-06 08:00:00,2025-06-06 17:00:00,confirmed,False
+EVT-0147,Conference: Education forum,conference,KAZANCHIS,2025-10-20 08:00:00,2025-10-20 17:00:00,confirmed,False
+EVT-0155,Live concert,concert,BOLE,2025-11-05 19:00:00,2025-11-05 23:00:00,confirmed,False
+EVT-0054,Conference: Fintech forum,conference,BOLE,2025-04-29 08:00:00,2025-04-29 17:00:00,confirmed,False
+EVT-0055,International Labour Day,public_holiday,CITYWIDE,2025-05-01 00:00:00,2025-05-01 23:00:00,confirmed,False
+EVT-0157,Premier league match,football_match,KAZANCHIS,2025-11-09 15:00:00,2025-11-09 17:00:00,confirmed,False
+EVT-0143,Road closure (construction),road_closure,GERJI,2025-10-17 02:00:00,2025-10-18 06:00:00,confirmed,False
+EVT-0028,Community fun run,sports_run,KAZANCHIS,2025-03-09 06:00:00,2025-03-09 11:00:00,confirmed,False
+EVT-0029,Premier league match,football_match,KAZANCHIS,2025-03-10 18:00:00,2025-03-10 20:00:00,confirmed,False
+EVT-0113,Live concert,concert,BOLE,2025-09-01 20:00:00,2025-09-02 00:00:00,cancelled,True
+EVT-0102,Road closure (construction),road_closure,KAZANCHIS & ARAT KILO,2025-08-10 08:00:00,2025-08-10 18:00:00,confirmed,False
+EVT-0007,Premier league match,football_match,KAZANCHIS,2025-01-26 15:00:00,2025-01-26 17:00:00,confirmed,False
+EVT-0079,Eid al-Adha,public_holiday,CITYWIDE,2025-06-06 00:00:00,2025-06-06 23:00:00,confirmed,False
+EVT-9004,Conference: Education forum,conference,KAZANCHIS,2025-10-03 08:00:00,2025-10-03 17:00:00,confirmed,False
+EVT-9003,Premier league match,football_match,KAZANCHIS,2025-01-26 15:00:00,2025-01-26 17:00:00,confirmed,False
+EVT-0038,Road closure (construction),road_closure,PIASSA,2025-03-26 08:00:00,2025-03-26 10:00:00,confirmed,False
+EVT-0027,Premier league match,football_match,KAZANCHIS,2025-03-08 15:00:00,2025-03-08 17:00:00,confirmed,False
+EVT-0068,Conference: Education forum,conference,KAZANCHIS,2025-05-14 08:00:00,2025-05-14 17:00:00,confirmed,False
+EVT-0032,Conference: Fintech forum,conference,KAZANCHIS,2025-03-13 08:00:00,2025-03-13 17:00:00,confirmed,False
+EVT-0112,Live concert,concert,BOLE,2025-08-27 19:00:00,2025-08-27 23:00:00,confirmed,False
+EVT-0052,Premier league match,football_match,KAZANCHIS,2025-04-23 18:00:00,2025-04-23 20:00:00,cancelled,True
+EVT-0074,Road closure (construction),road_closure,LIDETA,2025-05-24 08:00:00,2025-05-24 18:00:00,confirmed,False
+EVT-9001,Premier league match,football_match,KAZANCHIS,2025-01-19 15:00:00,2025-01-19 17:00:00,confirmed,False
+EVT-0004,Premier league match,football_match,KAZANCHIS,2025-01-19 15:00:00,2025-01-19 17:00:00,confirmed,False
+EVT-0010,Premier league match,football_match,KAZANCHIS,2025-02-02 15:00:00,2025-02-02 17:00:00,confirmed,False
+EVT-0086,Conference: Agriculture summit,conference,KAZANCHIS,2025-06-12 08:00:00,2025-06-12 17:00:00,confirmed,False
+EVT-0003,Timkat (Epiphany),public_holiday,CITYWIDE,2025-01-19 00:00:00,2025-01-19 23:00:00,confirmed,False
+EVT-0026,Conference: Fintech forum,conference,KAZANCHIS,2025-03-03 08:00:00,2025-03-03 17:00:00,confirmed,False
+EVT-0022,Road closure (construction),road_closure,LIDETA,2025-02-28 05:00:00,2025-02-28 12:00:00,confirmed,False
+EVT-0101,Live concert,concert,BOLE,2025-08-09 19:00:00,2025-08-09 23:00:00,confirmed,False
+EVT-0133,Premier league match,football_match,KAZANCHIS,2025-10-05 15:00:00,2025-10-05 17:00:00,confirmed,False
+EVT-0094,Trade exhibition,exhibition,BOLE,2025-06-30 10:00:00,2025-07-03 18:00:00,confirmed,False
+EVT-0061,Patriots' Victory Day,public_holiday,ALL,2025-05-05 00:00:00,2025-05-05 23:00:00,confirmed,False
+EVT-0009,Premier league match,football_match,KAZANCHIS,2025-02-02 15:00:00,2025-02-02 17:00:00,confirmed,False
+EVT-0141,Road closure (construction),road_closure,BOLE,2025-10-14 18:00:00,2025-10-14 20:00:00,confirmed,False
+EVT-0090,Live concert,concert,BOLE,2025-06-25 20:00:00,2025-06-26 00:00:00,confirmed,False
+EVT-0021,Premier league match,football_match,KAZANCHIS,2025-02-22 15:00:00,2025-02-22 17:00:00,confirmed,False
+EVT-0123,Premier league match,football_match,KAZANCHIS,2025-09-14 15:00:00,2025-09-14 17:00:00,confirmed,False
+EVT-0044,Conference: Tech expo talks,conference,KAZANCHIS,2025-04-08 08:00:00,2025-04-08 17:00:00,confirmed,False
+EVT-0159,Premier league match,football_match,KAZANCHIS,2025-11-10 19:00:00,2025-11-10 21:00:00,confirmed,False
+EVT-0056,Premier league match,football_match,KAZANCHIS,2025-05-02 19:00:00,2025-05-02 21:00:00,confirmed,False
+EVT-0087,Premier league match,football_match,KAZANCHIS,2025-06-15 15:00:00,2025-06-15 17:00:00,confirmed,False
+EVT-0024,Premier league match,football_match,KAZANCHIS,2025-03-02 15:00:00,2025-03-02 17:00:00,confirmed,False
+EVT-0107,Live concert,concert,BOLE,2025-08-16 20:00:00,2025-08-17 00:00:00,confirmed,False
+EVT-0098,Conference: Health congress,conference,KAZANCHIS,2025-07-25 08:00:00,2025-07-25 17:00:00,confirmed,False
+EVT-0071,Live concert,concert,BOLE,2025-05-18 20:00:00,2025-05-19 00:00:00,confirmed,False
+EVT-0036,Conference: Agriculture summit,conference,KAZANCHIS,2025-03-21 08:00:00,2025-03-21 17:00:00,confirmed,False
+EVT-0139,Trade exhibition,exhibition,BOLE,2025-10-12 10:00:00,2025-10-12 12:00:00,confirmed,False
+EVT-0048,Fasika (Ethiopian Easter),public_holiday,ALL ZONES,2025-04-20 00:00:00,2025-04-20 23:00:00,confirmed,False
+EVT-0084,Conference: Energy conference,conference,KAZANCHIS,2025-06-10 08:00:00,2025-06-10 17:00:00,confirmed,False
+EVT-0046,Premier league match,football_match,KAZANCHIS,2025-04-19 15:00:00,2025-04-19 17:00:00,confirmed,False
+EVT-0001,Genna (Ethiopian Christmas),public_holiday,ALL,2025-01-07 00:00:00,2025-01-07 23:00:00,confirmed,False
+EVT-0095,Live concert,concert,BOLE,2025-07-02 19:00:00,2025-07-02 23:00:00,confirmed,False
+EVT-0008,Conference: Education forum,conference,PIASSA,2025-01-31 08:00:00,2025-01-31 17:00:00,confirmed,False
+EVT-9000,Conference: Energy conference,conference,KAZANCHIS,2025-02-06 08:00:00,2025-02-06 17:00:00,confirmed,False
+EVT-0132,Premier league match,football_match,KAZANCHIS,2025-10-04 15:00:00,2025-10-04 17:00:00,confirmed,False
+EVT-0085,Conference: Tech expo talks,conference,BOLE,2025-06-11 08:00:00,2025-06-11 17:00:00,confirmed,False
+EVT-0152,Conference: Health congress,conference,BOLE,2025-10-31 08:00:00,2025-10-31 17:00:00,confirmed,False
+EVT-0091,Road closure (construction),road_closure,BOLE,2025-06-26 08:00:00,2025-06-26 18:00:00,confirmed,False
+EVT-0115,Mawlid,public_holiday,CITYWIDE,2025-09-04 00:00:00,2025-09-04 23:00:00,confirmed,False
+EVT-0011,Live concert,concert,BOLE,2025-02-02 19:00:00,2025-02-02 23:00:00,confirmed,False
+EVT-0148,Premier league match,football_match,KAZANCHIS,2025-10-22 19:00:00,2025-10-22 21:00:00,confirmed,False
+EVT-0131,Premier league match,football_match,KAZANCHIS,2025-10-04 15:00:00,2025-10-04 17:00:00,confirmed,False
+EVT-0134,Conference: Health congress,conference,BOLE,2025-10-06 08:00:00,2025-10-06 17:00:00,confirmed,False
+EVT-0119,Premier league match,football_match,KAZANCHIS,2025-09-10 18:00:00,2025-09-10 20:00:00,confirmed,False
+EVT-0104,Road closure (construction),road_closure,KOLFE,2025-08-13 07:00:00,2025-08-14 06:00:00,confirmed,False
+EVT-0137,Trade exhibition,exhibition,BOLE,2025-10-10 10:00:00,2025-10-13 18:00:00,confirmed,False
+EVT-0012,Mid-year school break,school_break,CITYWIDE,2025-02-03 00:00:00,2025-02-14 23:00:00,confirmed,False
+EVT-0077,Conference: Education forum,conference,KAZANCHIS,2025-05-27 08:00:00,2025-05-27 17:00:00,confirmed,False
+EVT-0058,Premier league match,football_match,KAZANCHIS,2025-05-03 15:00:00,2025-05-03 17:00:00,cancelled,True
+EVT-0096,Summer school break,school_break,CITYWIDE,2025-07-07 00:00:00,2025-08-31 23:00:00,confirmed,False
+EVT-0088,Premier league match,football_match,KAZANCHIS,2025-06-21 15:00:00,2025-06-21 17:00:00,confirmed,False
+EVT-0034,Premier league match,football_match,KAZANCHIS,2025-03-18 19:00:00,2025-03-18 21:00:00,confirmed,False
+EVT-0150,Live concert,concert,BOLE,2025-10-26 19:00:00,2025-10-26 23:00:00,confirmed,False
+EVT-0122,Conference: Tech expo talks,conference,KAZANCHIS,2025-09-12 08:00:00,2025-09-12 17:00:00,confirmed,False
+EVT-0037,Road closure (construction),road_closure,MEGENAGNA,2025-03-22 12:00:00,2025-03-23 02:00:00,confirmed,False
+EVT-0083,Premier league match,football_match,KAZANCHIS,2025-06-08 15:00:00,2025-06-08 17:00:00,confirmed,False
+EVT-0033,Conference: Tech expo talks,conference,KAZANCHIS,2025-03-18 08:00:00,2025-03-18 17:00:00,confirmed,False
+EVT-0114,Live concert,concert,BOLE,2025-09-01 20:00:00,2025-09-02 00:00:00,confirmed,False
+EVT-0117,Live concert,concert,BOLE,2025-09-06 20:00:00,2025-09-06 22:00:00,confirmed,False
+EVT-0076,Live concert,concert,BOLE,2025-05-24 20:00:00,2025-05-25 00:00:00,confirmed,False
+EVT-0015,Live concert,concert,BOLE,2025-02-08 19:00:00,2025-02-08 23:00:00,confirmed,False
+EVT-0142,Live concert,concert,BOLE,2025-10-16 19:00:00,2025-10-16 23:00:00,confirmed,False
+EVT-0111,Trade exhibition,exhibition,BOLE,2025-08-23 10:00:00,2025-08-27 18:00:00,confirmed,False
+EVT-0017,Premier league match,football_match,KAZANCHIS,2025-02-15 15:00:00,2025-02-15 17:00:00,confirmed,False
+EVT-0144,Road closure (construction),road_closure,CMC,2025-10-17 08:00:00,2025-10-17 18:00:00,confirmed,False
+EVT-0097,Live concert,concert,BOLE,2025-07-12 19:00:00,2025-07-12 23:00:00,confirmed,False
+EVT-0082,Trade exhibition,exhibition,BOLE,2025-06-08 10:00:00,2025-06-11 18:00:00,confirmed,False
+EVT-0049,Road closure (construction),road_closure,AYAT & LIDETA,2025-04-21 08:00:00,2025-04-21 18:00:00,confirmed,False
+EVT-0146,Premier league match,football_match,KAZANCHIS,2025-10-18 15:00:00,2025-10-18 17:00:00,confirmed,False
+EVT-0108,Road closure (construction),road_closure,PIASSA,2025-08-18 14:00:00,2025-08-19 02:00:00,confirmed,False
+EVT-0043,Conference: Education forum,conference,PIASSA,2025-04-03 08:00:00,2025-04-03 17:00:00,confirmed,False
+EVT-0042,Conference: Health congress,conference,KAZANCHIS,2025-04-03 08:00:00,2025-04-03 17:00:00,cancelled,True
+EVT-0128,Live concert,concert,BOLE,2025-09-27 20:00:00,2025-09-28 00:00:00,confirmed,False
+EVT-0062,Road closure (construction),road_closure,ARAT KILO,2025-05-08 08:00:00,2025-05-08 18:00:00,confirmed,False
+EVT-0099,Live concert,concert,BOLE,2025-07-28 20:00:00,2025-07-29 00:00:00,cancelled,True
+EVT-0051,Live concert,concert,BOLE,2025-04-21 19:00:00,2025-04-21 23:00:00,confirmed,False
+EVT-0030,Road closure (construction),road_closure,CMC,2025-03-11 08:00:00,2025-03-11 18:00:00,confirmed,False
+EVT-0067,Premier league match,football_match,KAZANCHIS,2025-05-13 19:00:00,2025-05-13 21:00:00,confirmed,False
+EVT-0103,Live concert,concert,BOLE,2025-08-10 19:00:00,2025-08-10 23:00:00,confirmed,False
+EVT-0047,Live concert,concert,BOLE,2025-04-19 20:00:00,2025-04-20 00:00:00,confirmed,False
+EVT-0016,Premier league match,football_match,KAZANCHIS,2025-02-10 19:00:00,2025-02-10 21:00:00,confirmed,False
+EVT-0072,Conference: Agriculture summit,conference,KAZANCHIS,2025-05-22 08:00:00,2025-05-22 17:00:00,confirmed,False
+EVT-0078,Downfall of the Derg,public_holiday,CITYWIDE,2025-05-28 00:00:00,2025-05-28 23:00:00,confirmed,False
+EVT-0116,Road closure (construction),road_closure,ARAT KILO & SARBET,2025-09-04 03:00:00,2025-09-04 22:00:00,confirmed,False
+EVT-0109,Live concert,concert,BOLE,2025-08-20 19:00:00,2025-08-20 23:00:00,confirmed,False
+EVT-0154,Premier league match,football_match,KAZANCHIS,2025-11-03 19:00:00,2025-11-03 21:00:00,confirmed,False
+EVT-0110,Premier league match,football_match,KAZANCHIS,2025-08-22 19:00:00,2025-08-22 21:00:00,confirmed,False
+EVT-0035,Conference: Health congress,conference,KAZANCHIS,2025-03-21 08:00:00,2025-03-21 17:00:00,confirmed,False
+EVT-0002,Conference: Energy conference,conference,KAZANCHIS,2025-01-09 08:00:00,2025-01-09 17:00:00,confirmed,False
+EVT-0065,Live concert,concert,BOLE,2025-05-10 19:00:00,2025-05-10 23:00:00,confirmed,False
+EVT-0073,Live concert,concert,BOLE,2025-05-22 19:00:00,2025-05-22 23:00:00,confirmed,False
+EVT-0124,Live concert,concert,BOLE,2025-09-20 20:00:00,2025-09-21 00:00:00,confirmed,False
+EVT-0135,Road closure (construction),road_closure,LIDETA & KAZANCHIS,2025-10-07 15:00:00,2025-10-08 09:00:00,confirmed,False
+EVT-0136,Premier league match,football_match,KAZANCHIS,2025-10-08 19:00:00,2025-10-08 21:00:00,confirmed,False
+EVT-0031,Conference: Tech expo talks,conference,BOLE,2025-03-12 08:00:00,2025-03-12 17:00:00,confirmed,False
+EVT-0145,Trade exhibition,exhibition,BOLE,2025-10-18 10:00:00,2025-10-22 18:00:00,confirmed,False
+EVT-0025,Conference: Education forum,conference,KAZANCHIS,2025-03-03 08:00:00,2025-03-03 17:00:00,confirmed,False
+EVT-0006,Road closure (construction),road_closure,KOLFE,2025-01-21 15:00:00,2025-01-22 06:00:00,confirmed,False
+EVT-0075,Road closure (construction),road_closure,AYAT,2025-05-24 09:00:00,2025-05-25 09:00:00,confirmed,False
+EVT-0153,Premier league match,football_match,KAZANCHIS,2025-11-02 15:00:00,2025-11-02 17:00:00,confirmed,False
+EVT-0053,Live concert,concert,BOLE,2025-04-26 19:00:00,2025-04-26 23:00:00,confirmed,False
+EVT-0100,Premier league match,football_match,KAZANCHIS,2025-08-09 15:00:00,2025-08-09 17:00:00,confirmed,False
+EVT-0005,Live concert,concert,BOLE,2025-01-19 19:00:00,2025-01-19 23:00:00,confirmed,False
+EVT-0156,Community fun run,sports_run,KAZANCHIS,2025-11-09 06:00:00,2025-11-09 11:00:00,confirmed,False
+EVT-0158,Road closure (construction),road_closure,MEGENAGNA,2025-11-10 02:00:00,2025-11-10 22:00:00,confirmed,False
+EVT-0064,Premier league match,football_match,KAZANCHIS,2025-05-10 15:00:00,2025-05-10 17:00:00,confirmed,False
+EVT-0059,Road closure (construction),road_closure,AYAT,2025-05-04 08:00:00,2025-05-04 18:00:00,confirmed,False
+EVT-0105,Conference: Health congress,conference,KAZANCHIS,2025-08-13 08:00:00,2025-08-13 17:00:00,confirmed,False
+EVT-0050,Conference: Energy conference,conference,PIASSA,2025-04-21 08:00:00,2025-04-21 17:00:00,confirmed,False
+EVT-9002,Premier league match,football_match,KAZANCHIS,2025-11-03 19:00:00,2025-11-03 21:00:00,confirmed,False
+EVT-0138,Premier league match,football_match,KAZANCHIS,2025-10-11 15:00:00,2025-10-11 17:00:00,confirmed,False
+EVT-0120,Premier league match,football_match,KAZANCHIS,2025-09-10 19:00:00,2025-09-10 21:00:00,confirmed,False
+EVT-0020,Premier league match,football_match,KAZANCHIS,2025-02-22 15:00:00,2025-02-22 17:00:00,cancelled,True
+EVT-0140,Premier league match,football_match,KAZANCHIS,2025-10-12 15:00:00,2025-10-12 17:00:00,confirmed,False
+EVT-0130,Conference: Education forum,conference,KAZANCHIS,2025-10-03 08:00:00,2025-10-03 17:00:00,confirmed,False
+EVT-0019,Conference: Tech expo talks,conference,KAZANCHIS,2025-02-20 08:00:00,2025-02-20 17:00:00,confirmed,False
+EVT-0013,Conference: Energy conference,conference,KAZANCHIS,2025-02-06 08:00:00,2025-02-06 17:00:00,confirmed,False
+EVT-0121,Enkutatash (Ethiopian New Year),public_holiday,ALL ZONES,2025-09-11 00:00:00,2025-09-11 23:00:00,confirmed,False
+EVT-0125,Premier league match,football_match,KAZANCHIS,2025-09-24 19:00:00,2025-09-24 21:00:00,confirmed,False
+EVT-0063,Premier league match,football_match,KAZANCHIS,2025-05-10 15:00:00,2025-05-10 17:00:00,confirmed,False
+EVT-0129,Premier league match,football_match,KAZANCHIS,2025-09-28 15:00:00,2025-09-28 17:00:00,confirmed,False
+EVT-0092,Conference: Health congress,conference,BOLE,2025-06-27 08:00:00,2025-06-27 17:00:00,confirmed,False
+EVT-0118,Conference: Tech expo talks,conference,KAZANCHIS,2025-09-09 08:00:00,2025-09-09 17:00:00,confirmed,False
+EVT-0041,Conference: Health congress,conference,KAZANCHIS,2025-04-02 08:00:00,2025-04-02 17:00:00,confirmed,False
+EVT-0060,Premier league match,football_match,KAZANCHIS,2025-05-04 15:00:00,2025-05-04 17:00:00,confirmed,False
+EVT-0023,Adwa Victory Day,public_holiday,ALL,2025-03-02 00:00:00,2025-03-02 23:00:00,confirmed,False
+EVT-0066,Premier league match,football_match,KAZANCHIS,2025-05-13 18:00:00,2025-05-13 20:00:00,confirmed,False
+EVT-0126,Meskel (Finding of the True Cross),public_holiday,CITYWIDE,2025-09-27 00:00:00,2025-09-27 23:00:00,confirmed,False
+EVT-0151,Live concert,concert,BOLE,2025-10-26 20:00:00,2025-10-27 00:00:00,confirmed,False
+EVT-0057,Trade exhibition,exhibition,BOLE,2025-05-03 10:00:00,2025-05-07 18:00:00,confirmed,False
+EVT-9005,Road closure (construction),road_closure,LIDETA & KAZANCHIS,2025-10-07 15:00:00,2025-10-08 09:00:00,confirmed,False
+EVT-0093,Premier league match,football_match,KAZANCHIS,2025-06-29 15:00:00,2025-06-29 17:00:00,confirmed,False
+EVT-0127,Premier league match,football_match,KAZANCHIS,2025-09-27 15:00:00,2025-09-27 17:00:00,confirmed,False

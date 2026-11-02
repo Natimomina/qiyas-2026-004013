@@ -1,0 +1,9 @@
+feature,known_at_forecast_time,decision,reason
+zone,yes,include,zone is part of the test row
+pickup_hour / calendar features,yes,include,forecast timestamp is known
+weather variables,yes for Nov 1-14 forecast rows,include,use forecast rows for target dates; observed weather only for historical features
+event features,yes for published event calendar,include,events and intervals are available in the provided calendar
+avg_fare_birr,no,exclude from model,train-only operational column; future fare not supplied
+avg_wait_min,no,exclude from model,train-only outcome/operational measure
+active_drivers,no,exclude from model,future driver availability is unknown and may respond to demand
+trips lag/rolling target,only if computed from past,not used in this baseline feature set,avoid accidental future target leakage; trend/calendar features are used instead

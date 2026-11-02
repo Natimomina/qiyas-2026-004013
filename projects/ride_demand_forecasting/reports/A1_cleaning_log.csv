@@ -1,0 +1,19 @@
+file,column(s),issue_type,rows_affected,percent_of_file,fix_applied,reason
+events,expected_attendance,missing or free-text attendance,54,32.727,parse numeric attendance where available; otherwise retain as missing,Attendance is optional and should not be fabricated
+events,event_id,duplicate event identifiers,0,0.0,retain rows for audit but avoid treating IDs as model features,Duplicate IDs can make event audit ambiguous
+train,trips,negative/impossible target,681,0.797,"set to missing, then exclude from supervised fitting",Trip counts cannot be negative
+train,avg_fare_birr,negative operational values,0,0.0,set to missing,Negative values are not physically meaningful
+train,avg_wait_min,negative operational values,1707,1.997,set to missing,Negative values are not physically meaningful
+train,active_drivers,negative operational values,0,0.0,set to missing,Negative values are not physically meaningful
+train,zone/pickup_hour,unparseable key values,0,0.0,exclude from modeling after audit,A valid zone-hour is required
+weather,timestamp,unparseable timestamps,0,0.0,exclude invalid timestamps,Cannot safely join without a parsed hour
+weather,temp_c,impossible/sentinel-like values,351,4.656,set impossible temperatures to missing,Keep plausible measurements; avoid treating error codes as real weather
+weather,rain_mm,impossible/sentinel-like values,76,1.008,set impossible rainfall to missing,Keep plausible measurements; avoid treating error codes as real weather
+weather,humidity_pct,impossible/sentinel-like values,0,0.0,set outside 0–100 to missing,Keep plausible measurements; avoid treating error codes as real weather
+weather,wind_kmh,impossible/sentinel-like values,0,0.0,set impossible wind speed to missing,Keep plausible measurements; avoid treating error codes as real weather
+events,end_datetime,missing/earlier-than-start event ends,5,3.03,impute missing end as start+2h; clamp earlier ends to start+2h,Create a nonnegative event interval without inventing long durations
+events,start_datetime/end_datetime,unparseable event start,0,0.0,exclude event from interval features but retain in cleaning log,Cannot define event window without start
+train,zone,inconsistent zone labels,72596,84.947,normalize aliases/case/whitespace to 12 canonical labels,Make joins and grouped analysis consistent
+test,zone,inconsistent zone labels,3428,85.02,same zone normalization as train,Avoid train/test category mismatch
+events,event_type/zone,inconsistent event labels,94,56.97,normalize event type and zone labels,Enable consistent event features
+weather,pickup_hour,duplicate timestamps,724,9.605,aggregate duplicate timestamps by median; forecast flag retained if any row forecast,Enforce many-to-one weather join

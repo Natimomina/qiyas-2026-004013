@@ -12,12 +12,13 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Data and Models (Ignore files, but keep READMEs to preserve folder structure)
-data/raw/*
-!data/raw/README.md
+# data/raw/*
+# !data/raw/README.md
 data/processed/*
 !data/processed/README.md
 models/*
 !models/README.md
+data/raw/Amharic Audio/ # Ignore raw audio files, It contains large files that are not necessary for the repository. If you need to access the raw audio files, please contact the repository owner.
 
 # Outputs (Ignore generated media and results)
 outputs/figures/*

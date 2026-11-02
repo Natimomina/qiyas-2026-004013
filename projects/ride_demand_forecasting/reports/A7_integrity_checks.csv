@@ -1,0 +1,8 @@
+check,status,detail
+train zone-hour unique,PASS,0 duplicate keys
+test row count preserved,PASS,4032 processed vs 4032 input
+test row ids unique,PASS,Each row_id appears once
+12 canonical zones,PASS,12 train zones
+no negative target,PASS,Negative targets excluded
+forecast-time feature policy,PASS,Operational-only columns excluded
+weather join many-to-one,PASS,Weather aggregated to one row per hour
