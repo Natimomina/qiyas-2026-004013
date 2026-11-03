@@ -1,0 +1,38 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+
+venv/
+env/
+.venv/
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# IDE
+
+.vscode/
+.idea/
+
+# Generated processed data
+
+data/processed/
+
+# Generated models
+
+models/*.keras
+models/*.h5
+
+# Python cache
+
+.pytest_cache/
+
+# OS files
+
+.DS_Store
+Thumbs.db
